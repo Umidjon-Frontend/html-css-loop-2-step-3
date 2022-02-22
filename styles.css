@@ -1,4 +1,50 @@
-body{    
-    height: 100vh;
-    background: linear-gradient(180deg, #b884e5, #7e82e2);
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #b884e5, #7e82e2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+}
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CARD */
+.card{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+
+.card-header{
+    height: 85px;
+    padding: 40px 25px 20px 20px;
+    display: flex;
+    align-items: center;
+}
+.card-header-img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-header-img img{
+    width: 15px;
+    height: 15px;
+}
+.card-header-arrow{
+    margin: 0 0 0 auto;
+}
+.card-header-title{
+    margin-left: 10px;
 }
